@@ -58,7 +58,7 @@
         <!--Top-->
         <scene sceneID="8DC-F7-d8Q">
             <objects>
-                <viewController id="bLh-9e-QzF" sceneMemberID="viewController">
+                <viewController id="bLh-9e-QzF" customClass="ViewController" customModule="Recipe_app" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IMK-qC-ojq"/>
                         <viewControllerLayoutGuide type="bottom" id="5Sy-9p-np9"/>
