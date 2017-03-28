@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84A87EA21E8AEC3D006E755E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A87EA11E8AEC3D006E755E /* SWRevealViewController.m */; };
 		84B6A75B1E8A125400169B5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6A75A1E8A125400169B5D /* AppDelegate.swift */; };
 		84B6A75D1E8A125400169B5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6A75C1E8A125400169B5D /* ViewController.swift */; };
 		84B6A7601E8A125400169B5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B6A75E1E8A125400169B5D /* Main.storyboard */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84A87E9F1E8AEC3C006E755E /* Recipe app-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe app-Bridging-Header.h"; sourceTree = "<group>"; };
+		84A87EA01E8AEC3D006E755E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		84A87EA11E8AEC3D006E755E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		84B6A7571E8A125400169B5D /* Recipe app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B6A75A1E8A125400169B5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84B6A75C1E8A125400169B5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84A87EA31E8AEC45006E755E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84A87EA01E8AEC3D006E755E /* SWRevealViewController.h */,
+				84A87EA11E8AEC3D006E755E /* SWRevealViewController.m */,
+				84A87E9F1E8AEC3C006E755E /* Recipe app-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		84B6A74E1E8A125400169B5D = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +77,7 @@
 				84B6A7661E8A125400169B5D /* LaunchScreen.storyboard */,
 				84B6A7691E8A125400169B5D /* Info.plist */,
 				84B6A7611E8A125400169B5D /* Recipe_app.xcdatamodeld */,
+				84A87EA31E8AEC45006E755E /* Supporting Files */,
 			);
 			path = "Recipe app";
 			sourceTree = "<group>";
@@ -99,6 +114,7 @@
 				TargetAttributes = {
 					84B6A7561E8A125400169B5D = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -142,6 +158,7 @@
 				84B6A75D1E8A125400169B5D /* ViewController.swift in Sources */,
 				84B6A75B1E8A125400169B5D /* AppDelegate.swift in Sources */,
 				84B6A7631E8A125400169B5D /* Recipe_app.xcdatamodeld in Sources */,
+				84A87EA21E8AEC3D006E755E /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,10 +281,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Recipe app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.makitoda.Recipe-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Recipe app/Recipe app-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -276,10 +296,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Recipe app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.makitoda.Recipe-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Recipe app/Recipe app-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -303,6 +325,7 @@
 				84B6A76E1E8A125400169B5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
