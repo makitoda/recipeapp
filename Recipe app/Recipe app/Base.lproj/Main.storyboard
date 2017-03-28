@@ -76,6 +76,9 @@
                     <navigationItem key="navigationItem" title="Top" id="sQ7-DI-TVw">
                         <barButtonItem key="leftBarButtonItem" title="menu" id="0rS-zP-lnC"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="menuButton" destination="0rS-zP-lnC" id="KRU-dD-zW4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QzS-Cd-Z7v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
