@@ -24,6 +24,7 @@
                     </view>
                     <connections>
                         <segue destination="G36-sG-ZDX" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="aTi-Z3-D86"/>
+                        <segue destination="CFf-hs-N28" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="JrI-eC-YiE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
