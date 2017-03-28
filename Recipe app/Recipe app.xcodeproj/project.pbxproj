@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		84A87EA21E8AEC3D006E755E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A87EA11E8AEC3D006E755E /* SWRevealViewController.m */; };
+		84A87EA51E8AFA66006E755E /* SidebarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A87EA41E8AFA66006E755E /* SidebarTableViewController.swift */; };
 		84B6A75B1E8A125400169B5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6A75A1E8A125400169B5D /* AppDelegate.swift */; };
 		84B6A75D1E8A125400169B5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6A75C1E8A125400169B5D /* ViewController.swift */; };
 		84B6A7601E8A125400169B5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B6A75E1E8A125400169B5D /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		84A87E9F1E8AEC3C006E755E /* Recipe app-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe app-Bridging-Header.h"; sourceTree = "<group>"; };
 		84A87EA01E8AEC3D006E755E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		84A87EA11E8AEC3D006E755E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		84A87EA41E8AFA66006E755E /* SidebarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidebarTableViewController.swift; sourceTree = "<group>"; };
 		84B6A7571E8A125400169B5D /* Recipe app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B6A75A1E8A125400169B5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84B6A75C1E8A125400169B5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				84B6A75A1E8A125400169B5D /* AppDelegate.swift */,
 				84B6A75C1E8A125400169B5D /* ViewController.swift */,
 				84B6A75E1E8A125400169B5D /* Main.storyboard */,
+				84A87EA41E8AFA66006E755E /* SidebarTableViewController.swift */,
 				84B6A7641E8A125400169B5D /* Assets.xcassets */,
 				84B6A7661E8A125400169B5D /* LaunchScreen.storyboard */,
 				84B6A7691E8A125400169B5D /* Info.plist */,
@@ -159,6 +162,7 @@
 				84B6A75B1E8A125400169B5D /* AppDelegate.swift in Sources */,
 				84B6A7631E8A125400169B5D /* Recipe_app.xcdatamodeld in Sources */,
 				84A87EA21E8AEC3D006E755E /* SWRevealViewController.m in Sources */,
+				84A87EA51E8AFA66006E755E /* SidebarTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
