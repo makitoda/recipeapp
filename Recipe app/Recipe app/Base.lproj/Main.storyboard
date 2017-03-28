@@ -47,6 +47,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="bLh-9e-QzF" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="Nba-xB-lfo"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -58,7 +61,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kRe-nb-1Nh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1094" y="-666"/>
+            <point key="canvasLocation" x="1094" y="-725"/>
         </scene>
         <!--Top-->
         <scene sceneID="8DC-F7-d8Q">
@@ -101,4 +104,7 @@
             <point key="canvasLocation" x="1095" y="38"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Nba-xB-lfo"/>
+    </inferredMetricsTieBreakers>
 </document>
