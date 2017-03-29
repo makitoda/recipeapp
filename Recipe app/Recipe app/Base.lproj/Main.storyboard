@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -24,7 +25,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <segue destination="G36-sG-ZDX" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="aTi-Z3-D86"/>
+                        <segue destination="G36-sG-ZDX" kind="custom" identifier="sw_right" customClass="SWRevealViewControllerSegueSetController" id="aTi-Z3-D86"/>
                         <segue destination="CFf-hs-N28" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="JrI-eC-YiE"/>
                     </connections>
                 </viewController>
@@ -46,7 +47,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Favorite" id="ydU-Jy-CsQ">
-                        <barButtonItem key="leftBarButtonItem" image="menu" id="DMq-Bu-cMM"/>
+                        <barButtonItem key="rightBarButtonItem" image="menu" id="DMq-Bu-cMM"/>
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="DMq-Bu-cMM" id="uHR-F9-EFZ"/>
@@ -71,11 +72,11 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jeA-Cl-8Fo" id="H6P-GL-Zn7">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="79"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="user name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3sO-Jw-xBu">
-                                            <rect key="frame" x="94" y="0.0" width="266" height="79"/>
+                                            <rect key="frame" x="94" y="0.0" width="266" height="79.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -96,11 +97,11 @@
                                 <rect key="frame" x="0.0" y="108" width="375" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lhp-Jv-s2Q" id="Szg-OZ-Sqw">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Post new recipe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BX0-Y4-yry">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="59"/>
+                                            <rect key="frame" x="16" y="0.0" width="344" height="59.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -117,11 +118,11 @@
                                 <rect key="frame" x="0.0" y="168" width="375" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eQi-xm-X3h" id="imT-oU-tDL">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Favorite" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZyX-n8-izl">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="59"/>
+                                            <rect key="frame" x="16" y="0.0" width="344" height="59.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -138,11 +139,11 @@
                                 <rect key="frame" x="0.0" y="228" width="375" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CVO-Lb-ZiG" id="bAd-pw-xLD">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="History" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HLT-pT-nzf">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="59"/>
+                                            <rect key="frame" x="16" y="0.0" width="344" height="59.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -159,11 +160,11 @@
                                 <rect key="frame" x="0.0" y="288" width="375" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OrE-RB-K5W" id="UOA-mu-dyW">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Shopping list" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TSc-al-0sV">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="59"/>
+                                            <rect key="frame" x="16" y="0.0" width="344" height="59.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -180,11 +181,11 @@
                                 <rect key="frame" x="0.0" y="348" width="375" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tcI-tT-syy" id="dGt-D1-sb0">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Search store" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nbh-QR-8AC">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="59"/>
+                                            <rect key="frame" x="16" y="0.0" width="344" height="59.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -223,7 +224,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Setting" id="fxc-8l-OOo">
-                        <barButtonItem key="leftBarButtonItem" image="menu" id="Trc-d0-UWj"/>
+                        <barButtonItem key="rightBarButtonItem" image="menu" id="Trc-d0-UWj"/>
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="Trc-d0-UWj" id="mnM-Bc-Jlo"/>
@@ -247,7 +248,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Post recipe" id="ga4-3T-cK8">
-                        <barButtonItem key="leftBarButtonItem" image="menu" id="CP5-X2-zuh"/>
+                        <barButtonItem key="rightBarButtonItem" image="menu" id="CP5-X2-zuh"/>
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="CP5-X2-zuh" id="dwB-s4-d3e"/>
@@ -271,7 +272,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="History" id="lhX-Oy-tGL">
-                        <barButtonItem key="leftBarButtonItem" image="menu" id="lbt-vs-hPM"/>
+                        <barButtonItem key="rightBarButtonItem" image="menu" id="lbt-vs-hPM"/>
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="lbt-vs-hPM" id="gmf-DK-BRS"/>
@@ -295,7 +296,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Shopping list" id="anf-sU-siE">
-                        <barButtonItem key="leftBarButtonItem" image="menu" id="hYP-bt-cCB"/>
+                        <barButtonItem key="rightBarButtonItem" image="menu" id="hYP-bt-cCB"/>
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="hYP-bt-cCB" id="T7t-b3-oWy"/>
@@ -455,8 +456,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Top" id="sQ7-DI-TVw">
-                        <barButtonItem key="leftBarButtonItem" image="menu" style="plain" id="0rS-zP-lnC"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="QAt-mg-b3i"/>
+                        <rightBarButtonItems>
+                            <barButtonItem image="menu" style="plain" id="0rS-zP-lnC"/>
+                            <barButtonItem systemItem="search" id="QAt-mg-b3i"/>
+                        </rightBarButtonItems>
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="0rS-zP-lnC" id="KRU-dD-zW4"/>
@@ -608,7 +611,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Recipe" id="Rh5-BZ-MGc">
-                        <barButtonItem key="leftBarButtonItem" image="menu" id="ati-tB-Ydz"/>
+                        <barButtonItem key="rightBarButtonItem" image="menu" id="ati-tB-Ydz"/>
                     </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="3uP-fu-PxP" id="qQ8-6Z-H6U"/>
@@ -737,7 +740,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Search store" id="vM8-dG-zxS">
-                        <barButtonItem key="leftBarButtonItem" image="menu" id="jdN-NZ-hwK"/>
+                        <barButtonItem key="rightBarButtonItem" image="menu" id="jdN-NZ-hwK"/>
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="jdN-NZ-hwK" id="Pps-Am-QUZ"/>
