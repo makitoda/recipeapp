@@ -1,20 +1,18 @@
 //
-//  ViewController.swift
+//  SearchStoreViewController.swift
 //  Recipe app
 //
 //  Created by Maki & Mai on 2017-03-27.
 //  Copyright © 2017 Maki & Mai. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class ViewController: UIViewController {
-
+class SearchStoreViewController: UIViewController {
+    
     @IBOutlet weak var menuButton: UIBarButtonItem!
     
     override func viewDidLoad() {
-        super.viewDidLoad()
-        
         if self.revealViewController() != nil {
             
             // Open sidebar from menuButton
@@ -27,10 +25,5 @@ class ViewController: UIViewController {
             // Close sidebar by clicking main screen
             self.view.addGestureRecognizer(self.revealViewController().tapGestureRecognizer())
         }
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 }
