@@ -15,18 +15,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if self.revealViewController() != nil {
-            
-            // Open sidebar from menuButton
-            menuButton.target = self.revealViewController()
-            menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
-            
-            // Open sidebar by swiping screen
-            self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-            
-            // Close sidebar by clicking main screen
-            self.view.addGestureRecognizer(self.revealViewController().tapGestureRecognizer())
-        }
+        // Active sidebar
+        Sidebar.init().activeSidebar(menuButton, self)
     }
 
     override func didReceiveMemoryWarning() {

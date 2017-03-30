@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84320A6D1E8B64D70069C6A2 /* AssistantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84320A6C1E8B64D70069C6A2 /* AssistantViewController.swift */; };
+		84320A731E8B8A2E0069C6A2 /* RecipeListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84320A721E8B8A2E0069C6A2 /* RecipeListCollectionViewCell.swift */; };
+		84320A7D1E8C277D0069C6A2 /* RecipeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84320A7C1E8C277D0069C6A2 /* RecipeListViewController.swift */; };
 		84A87EA21E8AEC3D006E755E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A87EA11E8AEC3D006E755E /* SWRevealViewController.m */; };
 		84A87EA51E8AFA66006E755E /* SidebarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A87EA41E8AFA66006E755E /* SidebarTableViewController.swift */; };
 		84A87EAF1E8B2572006E755E /* PostRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A87EAC1E8B2572006E755E /* PostRecipeViewController.swift */; };
@@ -15,6 +18,7 @@
 		84A87EB31E8B2590006E755E /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A87EB21E8B258F006E755E /* SettingViewController.swift */; };
 		84A87EB51E8B2D70006E755E /* SearchStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A87EB41E8B2D70006E755E /* SearchStoreViewController.swift */; };
 		84A87EB71E8B2D8F006E755E /* ShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A87EB61E8B2D8F006E755E /* ShoppingListViewController.swift */; };
+		84AD08B71E8C634D007F38C4 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD08B61E8C634D007F38C4 /* Sidebar.swift */; };
 		84B6A75B1E8A125400169B5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6A75A1E8A125400169B5D /* AppDelegate.swift */; };
 		84B6A75D1E8A125400169B5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6A75C1E8A125400169B5D /* ViewController.swift */; };
 		84B6A7601E8A125400169B5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B6A75E1E8A125400169B5D /* Main.storyboard */; };
@@ -24,6 +28,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84320A6C1E8B64D70069C6A2 /* AssistantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistantViewController.swift; sourceTree = "<group>"; };
+		84320A721E8B8A2E0069C6A2 /* RecipeListCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeListCollectionViewCell.swift; sourceTree = "<group>"; };
+		84320A7C1E8C277D0069C6A2 /* RecipeListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeListViewController.swift; sourceTree = "<group>"; };
 		84A87E9F1E8AEC3C006E755E /* Recipe app-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe app-Bridging-Header.h"; sourceTree = "<group>"; };
 		84A87EA01E8AEC3D006E755E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		84A87EA11E8AEC3D006E755E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -34,6 +41,7 @@
 		84A87EB21E8B258F006E755E /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		84A87EB41E8B2D70006E755E /* SearchStoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchStoreViewController.swift; sourceTree = "<group>"; };
 		84A87EB61E8B2D8F006E755E /* ShoppingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListViewController.swift; sourceTree = "<group>"; };
+		84AD08B61E8C634D007F38C4 /* Sidebar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
 		84B6A7571E8A125400169B5D /* Recipe app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B6A75A1E8A125400169B5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84B6A75C1E8A125400169B5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,15 +67,49 @@
 			isa = PBXGroup;
 			children = (
 				84B6A75A1E8A125400169B5D /* AppDelegate.swift */,
-				84A87EA01E8AEC3D006E755E /* SWRevealViewController.h */,
-				84A87EA11E8AEC3D006E755E /* SWRevealViewController.m */,
-				84A87E9F1E8AEC3C006E755E /* Recipe app-Bridging-Header.h */,
 				84B6A7641E8A125400169B5D /* Assets.xcassets */,
 				84B6A7661E8A125400169B5D /* LaunchScreen.storyboard */,
 				84B6A7691E8A125400169B5D /* Info.plist */,
 				84B6A7611E8A125400169B5D /* Recipe_app.xcdatamodeld */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84AD08B81E8C6DB1007F38C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84AD08B61E8C634D007F38C4 /* Sidebar.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		84AD08B91E8C6DCA007F38C4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84AD08BA1E8C6DFF007F38C4 /* SWRevealViewController */,
+				84B6A75C1E8A125400169B5D /* ViewController.swift */,
+				84320A7C1E8C277D0069C6A2 /* RecipeListViewController.swift */,
+				84320A721E8B8A2E0069C6A2 /* RecipeListCollectionViewCell.swift */,
+				84320A6C1E8B64D70069C6A2 /* AssistantViewController.swift */,
+				84A87EB21E8B258F006E755E /* SettingViewController.swift */,
+				84A87EAC1E8B2572006E755E /* PostRecipeViewController.swift */,
+				84A87EAE1E8B2572006E755E /* FavoriteViewController.swift */,
+				84A87EAD1E8B2572006E755E /* HistoryViewController.swift */,
+				84A87EB61E8B2D8F006E755E /* ShoppingListViewController.swift */,
+				84A87EB41E8B2D70006E755E /* SearchStoreViewController.swift */,
+				84A87EA41E8AFA66006E755E /* SidebarTableViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		84AD08BA1E8C6DFF007F38C4 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84A87EA01E8AEC3D006E755E /* SWRevealViewController.h */,
+				84A87EA11E8AEC3D006E755E /* SWRevealViewController.m */,
+				84A87E9F1E8AEC3C006E755E /* Recipe app-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
 			sourceTree = "<group>";
 		};
 		84B6A74E1E8A125400169B5D = {
@@ -90,14 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				84B6A75E1E8A125400169B5D /* Main.storyboard */,
-				84A87EA41E8AFA66006E755E /* SidebarTableViewController.swift */,
-				84B6A75C1E8A125400169B5D /* ViewController.swift */,
-				84A87EB21E8B258F006E755E /* SettingViewController.swift */,
-				84A87EAC1E8B2572006E755E /* PostRecipeViewController.swift */,
-				84A87EAE1E8B2572006E755E /* FavoriteViewController.swift */,
-				84A87EAD1E8B2572006E755E /* HistoryViewController.swift */,
-				84A87EB61E8B2D8F006E755E /* ShoppingListViewController.swift */,
-				84A87EB41E8B2D70006E755E /* SearchStoreViewController.swift */,
+				84AD08B81E8C6DB1007F38C4 /* Model */,
+				84AD08B91E8C6DCA007F38C4 /* Controller */,
 				84A87EA31E8AEC45006E755E /* Supporting Files */,
 			);
 			path = "Recipe app";
@@ -178,13 +214,17 @@
 			files = (
 				84A87EB71E8B2D8F006E755E /* ShoppingListViewController.swift in Sources */,
 				84B6A75D1E8A125400169B5D /* ViewController.swift in Sources */,
+				84320A731E8B8A2E0069C6A2 /* RecipeListCollectionViewCell.swift in Sources */,
 				84B6A75B1E8A125400169B5D /* AppDelegate.swift in Sources */,
 				84B6A7631E8A125400169B5D /* Recipe_app.xcdatamodeld in Sources */,
 				84A87EA21E8AEC3D006E755E /* SWRevealViewController.m in Sources */,
 				84A87EAF1E8B2572006E755E /* PostRecipeViewController.swift in Sources */,
+				84320A7D1E8C277D0069C6A2 /* RecipeListViewController.swift in Sources */,
 				84A87EB31E8B2590006E755E /* SettingViewController.swift in Sources */,
 				84A87EB51E8B2D70006E755E /* SearchStoreViewController.swift in Sources */,
+				84AD08B71E8C634D007F38C4 /* Sidebar.swift in Sources */,
 				84A87EB01E8B2572006E755E /* HistoryViewController.swift in Sources */,
+				84320A6D1E8B64D70069C6A2 /* AssistantViewController.swift in Sources */,
 				84A87EB11E8B2572006E755E /* FavoriteViewController.swift in Sources */,
 				84A87EA51E8AFA66006E755E /* SidebarTableViewController.swift in Sources */,
 			);

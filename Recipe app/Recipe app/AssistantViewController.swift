@@ -1,5 +1,5 @@
 //
-//  SearchStoreViewController.swift
+//  AssistantViewController.swift
 //  Recipe app
 //
 //  Created by Maki & Mai on 2017-03-27.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class SearchStoreViewController: UIViewController {
+class AssistantViewController: UIViewController {
     
     @IBOutlet weak var menuButton: UIBarButtonItem!
     
